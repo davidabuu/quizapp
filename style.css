@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    margin: 0px;
+    background-color: lavender;
+}
+.submit{
+    background-color: rgb(4, 4, 59);
+    color: white;
+    margin-bottom: 10px;
+    margin-left:22% ;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.centers{
+   text-align: center;
+}
+.total{
+    margin-bottom: 9%;
+    font-size: 30px;
+}
+.repeat{
+    float: right;
+    margin-right: 20%;
+    background-color: rgb(30, 199, 30);
+    color: white;
+    margin-bottom: 10px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.failed, .failed2, .failed2, .failed3, .failed4, .failed5, .failed6, .failed7, .failed8, .failed9, .failed10{
+    float: right;
+}
+.passed, .passed2, .passed3, .passed4, .passed5, .passed6, .passed7, .passed8, .passed9, .passed10{
+    float: right;
+}
+.field-set{
+  border:rgb(4, 4, 59) 3px solid;
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  border-radius:10px ;
+}
+.para{
+    background-color: lightgreen;
+    font-size: 30px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+.par{
+    background-color: lightgreen;
+    border:rgb(140, 147, 240) 5px solid;
+    padding-left: 10px;
+
+}
+.center{
+    text-align:center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.var, .if{
+    color: rgb(12, 12, 145);
+}
+.func{
+    color: purple;
+}
+.ret{
+    color: purple;
+}
+.field-set{
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:1024px){
+    .total{
+        font-size: 20px;
+    }
+    button{
+        font-size: 20px !important;
+        padding: 5px !important;
+        width: 100px !important;
+        height: 30px !important;
+    }
+}
+@media(max-width:768px){
+   .field-set{
+       width: 90%;
+   }
+    }
+
+@media(max-width:500px){
+  h3{
+      font-size: 20px !important;
+  }
+}
